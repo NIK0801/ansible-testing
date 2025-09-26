@@ -497,7 +497,7 @@ INFO     Pruning extra files from scenario ephemeral directory
 
 ### Tox
 
-1. Добавьте в директорию с vector-role файлы из [директории](./example)
+1. Добавьте в директорию с vector-role файлы из [директории](https://github.com/netology-code/mnt-homeworks/tree/MNT-video/08-ansible-05-testing/example)  
 2. Запустите `docker run --privileged=True -v <path_to_repo>:/opt/vector-role -w /opt/vector-role -it aragast/netology:latest /bin/bash`, где path_to_repo - путь до корня репозитория с vector-role на вашей файловой системе.
 
 ```shell
