@@ -489,11 +489,11 @@ INFO     Pruning extra files from scenario ephemeral directory
 
 4. Добавьте несколько assert'ов в verify.yml файл для проверки работоспособности vector-role (проверка, что конфиг валидный, проверка успешности запуска, etc). Запустите тестирование роли повторно и проверьте, что оно прошло успешно.
 
-- [verify.yml]()
+- [verify.yml](https://github.com/NIK0801/vector-role/blob/main/molecule/centos/verify.yml)
 
 5. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.
 
-- [vector-role v1.1.0]()
+- [vector-role v1.1.0](https://github.com/NIK0801/vector-role/releases/tag/1.1.0)
 
 ### Tox
 
@@ -560,8 +560,8 @@ commands =
 
 7. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.
 
-После выполнения у вас должно получится два сценария molecule и один tox.ini файл в репозитории. Ссылка на репозиторий являются ответами на домашнее задание. Не забудьте указать в ответе теги решений Tox и Molecule заданий.
+После выполнения у вас должно получится два сценария molecule и один tox.ini файл в репозитории. 
 
-- [vector-role v1.1.0]()
-- [vector-role v1.2.0]()
+- [vector-role v1.1.0](https://github.com/NIK0801/vector-role/releases/tag/1.1.0)
+- [vector-role v1.2.0](https://github.com/NIK0801/vector-role/releases/tag/1.2.0)
 ---
